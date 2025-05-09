@@ -32,7 +32,6 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado:
 
    ```bash
    git clone https://github.com/ProfePrometeo/inventario-app.git
-   cd inventario-equipos
 
 2. **Instala las dependencias necesarias** en tu equipo:
 
@@ -40,5 +39,6 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado:
    npm install express multer
 
 3. **Ejecuta el servidor** en tu equipo:
+
    ```bash
    node server.js
