@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventario Hardware ASIR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulario de Inventario</h1>
+  <form id="inventoryForm" enctype="multipart/form-data">
+    <input type="text" name="numeroSerie" placeholder="Número de serie" required>
+    <input type="text" name="sistemaOperativo" placeholder="Sistema operativo" required>
+    <input type="text" name="procesador" placeholder="Procesador">
+    <input type="text" name="chipset" placeholder="Chipset">
+    <input type="text" name="grafico" placeholder="Procesador gráfico">
+    <input type="text" name="ram" placeholder="Memoria RAM">
+    <input type="text" name="slotsExpansion" placeholder="Slots de expansión">
+    <input type="text" name="puertosSATA" placeholder="Puertos SATA">
+    <input type="text" name="puertosM2" placeholder="Puertos M2 PCIE">
+    <input type="text" name="otrosPuertos" placeholder="Otros Puertos">
+    <input type="text" name="almacenamiento" placeholder="Unidades de Almacenamiento">
+    <input type="text" name="adaptadoresRed" placeholder="Adaptadores de Red">
+    <input type="text" name="audio" placeholder="Audio">
+    <input type="text" name="panelFrontal" placeholder="E/S Panel Frontal">
+    <input type="text" name="panelTrasero" placeholder="E/S Panel Trasero">
+    <label>Foto: <input type="file" name="foto" accept="image/*"></label>
+    <button type="submit">Registrar equipo</button>
+  </form>
+  <a href="listado.html">
+    <button type="button">Ver inventario</button>
+  </a> 
+  <script src="script.js"></script>
+</body>
+</html>
